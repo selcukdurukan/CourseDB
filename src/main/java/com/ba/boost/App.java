@@ -11,6 +11,9 @@ import com.ba.boost.model.StudentClass;
 import com.ba.boost.model.Telephone;
 
 public class App {
+	/*
+	 * hello db
+	 */
 
 	private Connection connection = DatabaseConnection.getInstance().getCon();
 	private List<StudentClass> studentClasses = new ArrayList<>();
